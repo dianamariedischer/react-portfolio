@@ -1,5 +1,5 @@
 /* type */
-@import url("https://fonts.googleapis.com/css?family=Philosopher:700|Mulish:400");
+@import url("https://fonts.googleapis.com/css?family=Mulish:400..1000|Press+Start+2P:400");
 
 /* color palette */
 :root {
@@ -14,8 +14,12 @@
     --saffron: #e8941a;
 }
 
+body {
+    background-color: var(--buff);
+}
+
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Philosopher", serif;
+    font-family: "Mulish", sans-serif;
     line-height: 1.2;
 }
 
@@ -47,9 +51,8 @@ p {
 }
 
 .frame {
-    width: 80vw;
-    height: 60vh;
-    padding: 30%;
+    width: 30vw;
+    height: 50vh;
     color: var(--digitalwhite);
     background: var(--vinyl);
     border: 15px solid;
@@ -59,20 +62,70 @@ p {
     border-bottom-color: var(--saffron);
 }
 
+@media (max-width: 500px) {  
+    .frame {
+        width: 80vw;
+        height: 60vh;
+    }
+}
+
+#pixel-portrait {
+    height: 100px;
+}
+
+/* typewriter text */
+#text {
+    font-family: "Press Start 2P", system-ui;
+    font-size: 10px;
+    color: var(--digitalwhite);
+    min-height: 80px;
+}
+
+#about {
+    background-color: #f7f0ea;
+    max-width: 100vw;
+}
+
+#about-title {
+    color: var(--vermillion)
+}
+
+#head1 {
+    font-weight: 600;
+    color: var(--saffron); 
+}
+
+#head2 {
+    font-weight: 1000;
+    color: var(--ivy); 
+ }
+
+#about-text {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+#me {
+    max-width: 250px;
+    border-radius: 50%;
+}
+
+@media (max-width: 500px) {  
+    #about-text {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+}
+
 /* footer */
 
 #footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 2.5rem;
 }
 
 #page-container {
     position: relative;
     min-height: 100vh;
-}
-  
-#content-wrap {
-    padding-bottom: 2.5rem;
 }
