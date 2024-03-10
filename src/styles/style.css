@@ -5,6 +5,7 @@
 :root {
     --digitalwhite: white;
     --buff: #f2e9e1;
+    --linen: #f7f0ea;
     --vinyl: #211d14;
     --carbon: black;
     --ivy: #364e17;
@@ -82,7 +83,7 @@ p {
 }
 
 #about {
-    background-color: #f7f0ea;
+    background-color: var(--linen);
     max-width: 100vw;
 }
 
@@ -115,6 +116,24 @@ p {
         margin-top: 20px;
         margin-left: 0;
     }
+}
+
+/* portfolio */
+.card {
+    border: 0;
+}
+
+.btn-primary {
+    background-color: var(--pampas);
+    border: 0;
+}
+
+.btn-primary:hover {
+    background-color: var(--ivy);
+}
+
+.repo-link:hover svg {
+    fill: #db8400;
 }
 
 /* footer */
