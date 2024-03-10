@@ -11,7 +11,7 @@ export default function Portfolio() {
       repoLink: "https://github.com/dianamariedischer/ourspace",
       deployedLink: "https://our--space-1c334f1f25f8.herokuapp.com/",
       imageFile: ourspaceScreenshot,
-      description: "An apartment search tool for groups to organize their listing searches in one place.",
+      description: "A full stack apartment search tool for groups to organize their listing searches in one place.",
       role: "I was the project lead, and in charge of structuring the database, creating the routes, and designing the front-end."
     },
     {
@@ -19,7 +19,7 @@ export default function Portfolio() {
       repoLink: "https://github.com/mathilde-01/luna-sleep-tracker",
       deployedLink: "https://mathilde-01.github.io/luna-sleep-tracker/",
       imageFile: lunaScreenshot,
-      description: "A sleep tracker and calendar that provides a moon illumination forecast.",
+      description: "A sleep tracker and calendar that provides a moon illumination forecast, all built in the front end using local storage.",
       role: "I was the project lead, and in charge of designing and coding the styling and layout."
     },
   ]

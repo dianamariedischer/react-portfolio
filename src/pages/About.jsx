@@ -50,17 +50,18 @@ export default function About() {
 
         <Col lg="6" id="about-text">
           <h2 id="head2">Customization</h2>
-            <p> Specifically, customizing my Tumblr blog. Those are the high school origins 
-              of my relationship with HTML/CSS/Javascript. Since then I've done more self-learning, 
-              taken courses in Java and Python, and currently I'm enrolled in a full stack 
-              developer bootcamp through the University of Pennsylvania.</p>
-            <p> My relationship to web development began because I had a vision I wanted to realize,
-              and that's remained pretty consistent for me even outside of dev. I love sewing,
-              painting, printmaking, and pottery because I find a lot of joy in making beautiful
-              things.</p> 
-            <p>You can find me working part time at FrameWorks Studio & Gallery, where I work with 
-              clients to choose the best framing options for their pieces, and then assist with
-              the process of putting those frames together. I also pick up the coffee 😇</p>
+            <p> Specifically, customizing my Tumblr blog. Since those early experiences in HTML, 
+              CSS, and Javascript, I've taken college courses in Java and Python, and I'm currently 
+              immersed in a <a href="https://bootcamp.sas.upenn.edu/coding/" target="_blank">full-stack 
+              developer bootcamp</a> through the University of Pennsylvania.</p>
+            <p>My relationship to web development began because I had a vision I wanted to realize,
+              and that's remained a consistent motivator for me in all of the projects I take on. 
+              When I'm not coding, I enjoy taking on sewing, printmaking, and ceramics projects 
+              because they can be a nice break from the digital.</p> 
+            <p>You can find me working part time at <a href="https://www.fwsgallery.com" target="_blank">
+              FrameWorks Studio & Gallery</a>, where I work on the website, consult with clients 
+              to design individualized custom framing options, and then assist with the assembly 
+              of those frames - and pick up the coffees 😇</p>
           </Col>
         </Row>
       </Container>

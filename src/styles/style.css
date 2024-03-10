@@ -119,6 +119,10 @@ p {
     margin-left: 50px;
 }
 
+#about-text p a {
+    color: var(--pampas)
+ }
+
 #me {
     max-width: 250px;
     border-radius: 50%;
@@ -156,7 +160,7 @@ p {
 
 /* contact */
 #contact {
-    background-color: var(--linen);
+    background-color: var(--digitalwhite);
     max-width: 800px;
 }
 
@@ -168,6 +172,7 @@ p {
     font-family: "Mulish", sans-serif;
     border-radius: 0;
     border: 0;
+    background-color: var(--linen);
     box-shadow: 3px 3px var(--saffron);
 }
 
@@ -175,13 +180,42 @@ textarea {
     font-family: "Mulish", sans-serif;
     height: 200px;
     resize: none;
+    background-color: var(--linen);
     box-shadow: 3px 3px var(--saffron);
 }
 
 /* resume */
 #resume {
-    background-color: var(--linen);
+    background-color: var(--digitalwhite);
     max-width: 800px;
+}
+
+.col svg {
+    height: 50px;
+}
+
+.icon-labels {
+    white-space: 'nowrap';
+}
+
+.icon-labels.color-0 {
+    color: var(--pampas);
+}
+
+.icon-labels.color-1 {
+    color: var(--saffron);
+}
+
+.icon-labels.color-2 {
+    color: var(--vermillion);
+}
+
+.icon-labels.color-3 {
+    color: var(--denim);
+}
+
+#sequelize {
+    height: 50px;
 }
 
 /* footer */
