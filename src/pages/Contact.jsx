@@ -36,21 +36,25 @@ function Contact() {
   };
 
   return (
+    <div className='m-4'>
+    <div className="m-auto p-4 rounded" id="contact">
+    <h5 className='text-uppercase smallheader'>Contact</h5>
+    <h1 id="contact-header">Get in touch!</h1> 
+    <p>Feel free to send any inquiries or just say hey right here:</p>
     <Form ref={form} id="contact-form" onSubmit={sendEmail}>
       <Form.Group className="mb-3" controlId="formBasicName">
-        <Form.Label>Name</Form.Label>
-        <Form.Control type="name" name="user_name" placeholder="Enter name" />
+        <Form.Control type="name" name="user_name" placeholder="Name*" />
       </Form.Group>
       <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Label>Email address</Form.Label>
-        <Form.Control type="email" name="user_email" placeholder="Enter email" />
+        <Form.Control type="email" name="user_email" placeholder="Email*" />
       </Form.Group>
       <Form.Group className="mb-3" controlId="Textarea">
-        <Form.Label>Message</Form.Label>
-        <Form.Control as="textarea" name="message" rows={3} placeholder="Let me know if you have any inquiries!"/>
+        <Form.Control as="textarea" name="message" rows={3} placeholder="Message*"/>
       </Form.Group>
-      <Button variant="primary" type="submit">Send</Button>
+      <Button variant="primary" type="submit">Send email</Button>
     </Form>
+    </div>
+    </div>
   );
 }
 

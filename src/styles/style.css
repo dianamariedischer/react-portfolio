@@ -17,11 +17,21 @@
 
 body {
     background-color: var(--buff);
+    min-height: 100vh;
+}
+
+#page-container {
+    height: 100%;
+    background: url(../assets/bg.png);
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Mulish", sans-serif;
     line-height: 1.2;
+}
+
+.smallheader {
+    color: var(--vermillion)
 }
 
 .navbar-brand {
@@ -48,7 +58,6 @@ p {
 /* hero content */
 .hero {
     height: 92vh;
-    background: url(../assets/bg.png);
 }
 
 .frame {
@@ -74,6 +83,10 @@ p {
     height: 100px;
 }
 
+.mx-3.home-svg:hover path {
+    fill: #c63500; /* Change fill color on hover */
+}
+
 /* typewriter text */
 #text {
     font-family: "Press Start 2P", system-ui;
@@ -85,10 +98,6 @@ p {
 #about {
     background-color: var(--linen);
     max-width: 100vw;
-}
-
-#about-title {
-    color: var(--vermillion)
 }
 
 #head1 {
@@ -123,6 +132,10 @@ p {
     border: 0;
 }
 
+.card-title {
+    color: var(--vermillion)
+}
+
 .btn-primary {
     background-color: var(--pampas);
     border: 0;
@@ -136,15 +149,40 @@ p {
     fill: #db8400;
 }
 
+/* contact */
+#contact {
+    background-color: var(--linen);
+    max-width: 800px;
+}
+
+#contact-header {
+    color: var(--denim)
+}
+
+.form-control {
+    border-radius: 0;
+    border: 0;
+    box-shadow: 3px 3px var(--saffron);
+}
+
+textarea {
+    height: 200px;
+    resize: none;
+    box-shadow: 3px 3px var(--saffron);
+}
+
 /* footer */
 
 #footer {
-    position: absolute;
-    bottom: 0;
     width: 100%;
+    margin-top: auto;
+}
+
+#content-wrap {
+    flex: 1;
 }
 
 #page-container {
     position: relative;
-    min-height: 100vh;
+    min-height: 96vh;
 }

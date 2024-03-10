@@ -1,4 +1,3 @@
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
@@ -25,6 +24,7 @@ export default function Portfolio() {
     },
   ]
   return (
+    <div id="portfolio">
     <Row xs={1} md={2} className="g-4 m-3">
     {projects.map((project, i) => (
      <Col key={i}>
@@ -45,5 +45,6 @@ export default function Portfolio() {
    </Col>
     ))}
     </Row>
+    </div>
   );
 }
