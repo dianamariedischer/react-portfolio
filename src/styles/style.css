@@ -1,0 +1,78 @@
+/* type */
+@import url("https://fonts.googleapis.com/css?family=Philosopher:700|Mulish:400");
+
+/* color palette */
+:root {
+    --digitalwhite: white;
+    --buff: #f2e9e1;
+    --vinyl: #211d14;
+    --carbon: black;
+    --ivy: #364e17;
+    --pampas: #617830;
+    --vermillion: #d14513;
+    --denim: #24577c;
+    --saffron: #e8941a;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Philosopher", serif;
+    line-height: 1.2;
+}
+
+.navbar-brand {
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    font-family: "Mulish", sans-serif;
+}
+
+p {
+    font-family: "Mulish", sans-serif;
+}
+
+/* navbar */
+.bg-body-tertiary {
+    background-color: var(--buff) !important;
+    box-shadow: 0 2px 4px 2px rgba(0,0,0,.2) !important;
+    z-index: 999;
+}
+
+/* hero content */
+.hero {
+    height: 92vh;
+    background: url(../assets/bg.png);
+}
+
+.frame {
+    width: 80vw;
+    height: 60vh;
+    padding: 30%;
+    color: var(--digitalwhite);
+    background: var(--vinyl);
+    border: 15px solid;
+    border-left-color: var(--denim);
+    border-right-color: var(--vermillion);
+    border-top-color: var(--pampas);
+    border-bottom-color: var(--saffron);
+}
+
+/* footer */
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+  
+#content-wrap {
+    padding-bottom: 2.5rem;
+}
