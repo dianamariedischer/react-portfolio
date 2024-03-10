@@ -30,6 +30,10 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.2;
 }
 
+a {
+    color: var(--saffron)
+}
+
 .smallheader {
     color: var(--vermillion)
 }
@@ -72,7 +76,7 @@ p {
     border-bottom-color: var(--saffron);
 }
 
-@media (max-width: 500px) {  
+@media (max-width: 950px) {  
     .frame {
         width: 80vw;
         height: 60vh;
@@ -107,7 +111,7 @@ p {
 
 #head2 {
     font-weight: 1000;
-    color: var(--ivy); 
+    color: var(--denim); 
  }
 
 #about-text {
@@ -120,7 +124,7 @@ p {
     border-radius: 50%;
 }
 
-@media (max-width: 500px) {  
+@media (max-width: 991px) {  
     #about-text {
         margin-top: 20px;
         margin-left: 0;
@@ -137,6 +141,7 @@ p {
 }
 
 .btn-primary {
+    font-family: 'Mulish', sans-serif;
     background-color: var(--pampas);
     border: 0;
 }
@@ -160,15 +165,23 @@ p {
 }
 
 .form-control {
+    font-family: "Mulish", sans-serif;
     border-radius: 0;
     border: 0;
     box-shadow: 3px 3px var(--saffron);
 }
 
 textarea {
+    font-family: "Mulish", sans-serif;
     height: 200px;
     resize: none;
     box-shadow: 3px 3px var(--saffron);
+}
+
+/* resume */
+#resume {
+    background-color: var(--linen);
+    max-width: 800px;
 }
 
 /* footer */
