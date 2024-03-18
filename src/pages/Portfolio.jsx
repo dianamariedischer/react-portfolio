@@ -3,9 +3,18 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import lunaScreenshot from '../assets/luna-screenshot.png';
 import ourspaceScreenshot from '../assets/ourspace-screenshot.png';
+import pixelpalsScreenshot from '../assets/pixelpals-Screenshot'
 
 export default function Portfolio() {
   const projects = [
+    {
+      title: "Pixel Pals",
+      repoLink: "https://github.com/mathilde-01/pixel-paws",
+      deployedLink: "https://pixel-paws-n6iq.onrender.com/",
+      imageFile: pixelpalsScreenshot,
+      description: "A MERN stack virtual 3D pet simulator where a user can adopt and play with a dragon. The project utilizes Three.js for the model and animation rendering.",
+      role: "I was the project lead, working with everyone to make sure their code was working, and created the wireframe and general design guidelines, sourced the models and assets, and wrote the code accessing the model/animations with three.js."
+    },
     {
       title: "Ourspace",
       repoLink: "https://github.com/dianamariedischer/ourspace",
