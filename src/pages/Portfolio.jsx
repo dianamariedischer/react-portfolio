@@ -3,7 +3,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import lunaScreenshot from '../assets/luna-screenshot.png';
 import ourspaceScreenshot from '../assets/ourspace-screenshot.png';
-import pixelpalsScreenshot from '../assets/pixelpals-Screenshot'
+import pixelpalsScreenshot from '../assets/pixelpals-screenshot.png'
 
 export default function Portfolio() {
   const projects = [
